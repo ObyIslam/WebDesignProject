@@ -1,0 +1,227 @@
+.navbar-brand{
+    font-size: 1.8em;
+}
+
+.nav-link{
+    font-size: 1.2em;
+    color: white;
+}
+
+.nav-link:hover{
+  border:2px solid white;
+  color: white;
+}
+
+  .checkoutIcon{
+    background-color: black;
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px; 
+    
+ } 
+
+ .checkoutIcon:hover{
+  cursor: pointer;
+  border:2px Solid white;
+  #text1{
+    color:white;
+  }
+  #checkout{
+    color:white;
+  }
+ }
+
+ #shoppingCart{
+  height:20px;
+  width: 20px;
+  position: absolute;
+  right: 0;
+  margin-right: 105px; 
+  margin-top: 10px;
+} 
+
+#text1{
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+  margin-top: 6px; 
+  color: #bababa;
+  text-decoration: none;  
+  font-size: 1.1em;
+}
+
+.login{
+  background-color: black;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  margin-right: 150px; 
+} 
+.login:hover{
+  cursor: pointer;
+  border:2px Solid white;
+  #text2{
+    color:white;
+  }
+ }
+
+ #loginIcon{
+  height:20px;
+  width: 20px;
+  position: absolute;
+  right: 0;
+  margin-right: 70px; 
+  margin-top: 10px;
+} 
+
+#text2{
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  margin-top: 5px; 
+  color: #bababa;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+#checkout{
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+  margin-top: 5px; 
+  color: #bababa;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+#logo{
+    height:100px;
+    width: 190px;
+}
+
+#text3{
+  text-align: center;
+  font-family:fantasy;
+  font-size: 4em;
+}
+
+.loginClass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-top: 30px;
+  
+}
+
+.card{
+  width: 350px;
+  height: 400px;
+}
+
+#register1{
+  margin-left: -45px;
+}
+
+.row {
+  margin-left:150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
+}
+
+.container-fluid1{
+  margin-left: -100px;
+}
+
+footer {
+  background-color: black;
+  color: #bababa;
+  padding: 20px 0;
+  width: 100%;
+  margin-top: 400px;
+  position: absolute;
+  bottom: 0px;
+ 
+}
+
+footer a{
+  text-decoration: none;
+  color: #bababa;
+}
+
+.footer, ul, li {
+  margin: 5px 0;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+.col-md-4 {
+  margin-left: 50px;
+  flex: 0 0 auto;
+  width: 300px;
+}
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+#error a{
+  color: red;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+}
+@media(max-width: 995px)
+  {
+
+    .nav {
+      display: block;
+    }
+    .checkoutIcon{
+      
+      background-color: black;
+      width: 130px;
+      height: 40px;
+      position: absolute;
+      right: 0;
+      margin-right: 80px; 
+      top: 20px;
+      
+   } 
+
+   .login{
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-right: 210px; 
+    top: 20px;
+  } 
+
+  #logo{
+    height: 60px;
+    width: 130px;
+  }
+
+  #section2{
+  
+    height: 220px;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+
+ 
+
+ }

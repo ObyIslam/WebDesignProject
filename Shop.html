@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Stylish Deals Shop">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style2.css">
+    <title>Shop Page</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+        <img id="logo" src="images/logo1.png" alt="logo">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link  navlink-2" aria-current="page" href="index.html">Home Page</a>
+            <a class="nav-link" href="Shop.html">Shop Page</a>
+            <a class="nav-link" href="aboutPage.html">About Page</a>
+            <a class="nav-link" id="userdetails" href="userdetails.html">User Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="checkoutIcon">
+          <img id="shoppingCart" src="images/shoppingcarticon.png" alt="icon">
+          <a href="checkout.html" onclick="return goToCheckout()" id="text1">Checkout</a>
+          <span  id="checkout">0</span>
+      </div>
+      <div class="login" id="user-login">
+        <img id="loginIcon" src="images/loginicon.png" alt="icon">
+        <a href="login.html" id="text2">Login</a>
+    </div>
+    </nav>
+  </header>
+
+  <h1 id="text3">Sale Now On!!</h1>
+
+  <div class="container text-center d-flex justify-content-center align-items-center">
+
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="images/plaintshirt.jpg" class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title">Plain Navy T-shirt</h5>
+                    <p class="card-text">This t-shirt is made from pure cotton and is light and comfortable for only <strong>€30</strong></p>
+                    <a href="#" class="btn btn-secondary addtocart" id="addtocart1">Add to Cart</a> 
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="images/hoodie1.png" class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title">Green ATU hoodie</h5>
+                    <p class="card-text">This hoodie is thick but light and is made of cotton and polyester for only <strong>€40</strong></p>
+                    <a href="#" class="btn btn-secondary addtocart" id="addtocart2">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="images/jacket.jpg" class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title">Bomber Jacket</h5>
+                    <p class="card-text">This black bomber jacket is ideal for cold weather conditions whilst also looking stylish for only <strong>€30</strong></p>
+                    <a href="#" class="btn btn-secondary addtocart" id="addtocart3">add to cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+              <img src="images/leatherJacket1.png" class="card-img-top" alt="image">
+              <div class="card-body">
+                  <h5 class="card-title">Leather Jacket</h5>
+                  <p class="card-text">This stylish leather jacket is made from pure leather and only costs <strong>€90</strong> </p>
+                  <a href="#" class="btn btn-secondary addtocart" id="addtocart4">add to cart</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+              <img src="images/blazer.webp" class="card-img-top" alt="image">
+              <div class="card-body">
+                  <h5 class="card-title">Blazer Coat</h5>
+                  <p class="card-text">This teal navy blazer coat is made from 97% wool allowing a nice and cosy feel and is only <strong>€70</strong></p>
+                  <a href="#" class="btn btn-secondary addtocart" id="addtocart5">add to cart</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+              <img src="images/cargos.jfif" class="card-img-top" alt="image">
+              <div class="card-body">
+                  <h5 class="card-title">Cargo Trousers</h5>
+                  <p class="card-text">These black cargo trousers pair well with many outfits and you can get this for only <strong>€30</strong></p>
+                  <a href="#" class="btn btn-secondary addtocart" id="addtocart6">add to cart</a>
+              </div>
+          </div>
+        </div>
+    </div>
+
+</div>
+
+<div aria-live="polite" aria-atomic="true" class="d-flex align-items-center justify-content-center" style="position: absolute; left: 50%; top: 40%; transform: translate(-50%, -50%);">
+  <div id="myToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+          <strong id="error" class="mr-auto"><a href="login.html">Login First</a></strong>
+      </div>
+      <div class="toast-body">
+          <h5>Please login before going to checkout</h5>
+      </div>
+  </div>
+</div>
+
+
+
+ <footer>
+    <div class="container-fluid1">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Contact Us</h3>
+          <p>Email: bob@stylishdeals.com</p>
+          <p>Phone: +353 (123) 456-7890</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="Shop.html">Shop Page</a></li>
+            <li><a href="aboutPage.html">About Page</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="text-center">&copy; Stylish Deals</p>
+  </footer>
+
+    <script src="js/custom.js"></script>   
+    <script src="js/login.js"></script>  
+    <script src="js/shop.js"></script>
+    <script src="js/checkout.js"></script>   
+
+</body>
+</html>

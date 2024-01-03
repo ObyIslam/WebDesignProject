@@ -1,0 +1,328 @@
+/* *{
+    outline: 1px Solid red;
+  }  */
+
+
+.navbar-brand{
+    font-size: 1.8em;
+}
+
+.nav-link{
+    font-size: 1.2em;
+    color: white;
+}
+
+.nav-link:hover{
+  border:2px solid white;
+  color: white;
+}
+
+.btn{
+    width: 150px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px; 
+  }
+
+ .checkoutIcon{
+    background-color: black;
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px; 
+    
+ } 
+
+ .checkoutIcon:hover{
+  cursor: pointer;
+  border:2px Solid white;
+  #text1{
+    color:white;
+  }
+  #checkout{
+    color:white;
+  }
+ }
+
+#shoppingCart{
+  height:20px;
+  width: 20px;
+  position: absolute;
+  right: 0;
+  margin-right: 105px; 
+  margin-top: 10px;
+} 
+
+#text1{
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+  margin-top: 6px; 
+  color: #bababa;
+  text-decoration: none;  
+  font-size: 1.1em;
+}
+
+.login{
+  background-color: black;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  margin-right: 150px; 
+} 
+.login:hover{
+  cursor: pointer;
+  border:2px Solid white;
+  #text2{
+    color:white;
+  }
+ }
+
+ #loginIcon{
+  height:20px;
+  width: 20px;
+  position: absolute;
+  right: 0;
+  margin-right: 70px; 
+  margin-top: 10px;
+} 
+
+#text2{
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  margin-top: 5px; 
+  color: #bababa;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+#checkout{
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+  margin-top: 5px; 
+  color: #bababa;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+
+
+#logo{
+    height:100px;
+    width: 190px;
+}
+
+#text3{
+    text-align: center;
+    font-family:fantasy;
+    font-size: 4em;
+}
+
+.container{
+    
+    margin: 0 auto;
+}
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.card{
+    height:600px;
+    margin-right: 75px;
+    margin-top: 20px;
+}
+
+.btn{
+    left:20px;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+
+#error a{
+  color: red;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.row {
+  margin-left:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
+}
+
+.container-fluid1{
+  margin-left: -50px;
+}
+
+footer {
+  background-color: black;
+  color: #bababa;
+  padding: 20px 0;
+  width: 100%;
+  margin-top: 200px;
+
+  bottom: 0px;
+ 
+}
+
+footer a{
+  text-decoration: none;
+  color: #bababa;
+}
+
+.footer, ul, li {
+  margin: 5px 0;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+.col-md-4 {
+  margin-left: 50px;
+  flex: 0 0 auto;
+  width: 300px;
+}
+
+ 
+
+@media(max-width: 1397px) {
+    .row {
+        margin-left:200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+      .container-fluid1{
+        margin-left: -250px;
+      }
+
+
+ } 
+
+
+
+@media(max-width: 1367px) {
+    #pic1{
+      margin-top: 150px;
+      width: 500px;
+      height: 300px;
+    }
+    #container1Text{
+      font-size: 4em;
+    }
+
+}
+
+@media(max-width: 1200px) {
+    .row {
+        margin-left:100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container-fluid1{
+        margin-left: -100px;
+      }
+
+ } 
+
+
+
+
+
+ @media(max-width: 995px)
+ {
+
+   .nav {
+     display: block;
+   }
+   .checkoutIcon{
+     
+     background-color: black;
+     width: 130px;
+     height: 40px;
+     position: absolute;
+     right: 0;
+     margin-right: 80px; 
+     top: 20px;
+     
+  } 
+
+  .login{
+   background-color: black;
+   width: 100px;
+   height: 40px;
+   position: absolute;
+   right: 0;
+   margin-right: 210px; 
+   top: 20px;
+ } 
+
+ #logo{
+   height: 60px;
+   width: 130px;
+ }
+
+ #section2{
+ 
+   height: 220px;
+   width: 600px;
+   text-align: center;
+   margin: 0 auto;
+   
+ }
+
+
+
+}
+
+ @media(max-width: 767px) {
+    .row {
+        margin-left:100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .container-fluid1{
+    
+      margin-left: 0px;
+    }
+
+ } 
+
+ @media(max-width: 468px) {
+    .row {
+        margin-left:50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .col{
+        width: 200px;
+    }
+
+ } 
+
+
+
